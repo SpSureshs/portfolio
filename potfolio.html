@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suresh Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio</a></div>
+      <ul class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+       </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <h1>Hello, It's Me</h1>
+          <h2 class="fw-bold">Suresh</h2>
+          <h3>And I'm a <span class="highlight">Full Stack Developer!</span></h3>
+          <p>Welcome to my professional portfolio. I am a skilled FullStack Developer with a passion for creating exceptional user experiences.</p>
+          
+          <!-- Social Media Icons -->
+          <div class="social-icons my-4">
+            <!-- <a href="" class="social-icon"><i class="bi bi-twitter"></i></a> -->
+            <a href="https://www.instagram.com/sp__suresh?igsh=cDRpNWxxeWE3bGtx&utm_source=qr" class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sp-suresh-5b89652b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " class="social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/share/15rcWuotoi/?mibextid=wwXIfr" class="social-icon"><i class="bi bi-facebook"></i></a>
+          </div>
+
+          <!-- Download CV Button -->
+          <!-- <button class="btn btn-primary btn-shadow"
+          onclick="window.open('./assets/resume-example.pdf')">
+                 Download Resume
+            </button> -->
+          <a href="https://sureshresume.tiiny.site" class="btn btn-primary btn-shadow">View Resume</a>
+        </div>
+        
+        <!-- Image with Circle Background -->
+        <div class="col-md-6 text-center">
+          <div class="image-container">
+            <div class="image-circle">
+              <img src="E:\vinsup\backend\sp_1.jpg" alt="Profile Picture" class="profile-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+<section class="about-me d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Image with Circle Background -->
+        <div class="col-md-6 text-center">
+          <div class="about-image-container">
+            <div class="about-image-circle">
+              <img src="E:\vinsup\backend\sp_2.jpg" alt="Profile Picture" class="profile-img-a">
+            </div>
+          </div>
+        </div>
+  
+        <!-- About Me Text Content -->
+        <div class="col-md-6" id="about">
+          <h2>About <span class="highlight">Me</span></h2>
+          <h3>Full Stack Developer!</h3>
+          <p>
+            Hi, I'm Suresh, Dedicated and analytical B.Com graduate with a strong interest in technology and software development. I have certification in Python
+            Full Stack Development course to build a solid foundation in web application development. Skilled in Python, Django, and
+            front-end technologies like HTML, CSS, and JavaScript. Combines a business education with technical expertise to create efficient and
+            user-friendly solutions. Eager to launch a career in IT, contributing to innovative projects while continuing to grow and learn in a
+            collaborative environment.
+          </p>
+          <br> 
+          <p class="para">I'm proficient in HTML, CSS, JavaScript,python and djando. I also have experience with databases such as SQLite. Recently, I developed a personal portfolio website that showcases my projects and skills, which helped me enhance my understanding of responsive design and user experience.</p>
+  
+          <!-- Read More Button -->
+          <!-- <a href="#" class="btn btn-primary btn-shadow">Read More</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- My Services Section -->
+<section class="my-services py-5" id="projects">
+    <div class="container">
+      <h2 class="text-center mb-5">My <span class="highlight">Projects</span></h2>
+      <div class="row">
+        <!-- Service 1: Web Development -->
+        <div class="col-lg-6 col-md-6 mb-6">
+          <div class="service-card text-center p-4">
+            <div class="service-icon">
+              <i class="bi bi-person-lines-fill"></i>
+            </div>
+            <h3 class="service-title">Simple Institute Management</h3>
+            <p class="service-description">
+              Using (HTML, CSS $ Boostrap)
+              The institute Management Application is a web-based system designed to efficiently manage student records. Built with HTML and CSS, this application provides an intuitive interface for adding, viewing, updating, and deleting student information.
+            </p><br>
+            <a href="https://github.com/SpSureshs/MY-projects" class="btn btn-primary btn-shadow">View Code</a>
+          </div>
+        </div>
+  
+        <!-- Service 2: Graphic Design -->
+        <div class="col-lg-6 col-md-6 mb-6">
+          <div class="service-card text-center p-4">
+            <div class="service-icon">
+              <i class="bi bi-list-task"></i>            </div>
+            <h3 class="service-title">Inventary Management</h3>
+            <p class="service-description">
+              Using (HTML, CSS,JS,Python,Django & SQLite)
+              The Inventory Management Web Application is a full-stack web-based system designed to streamline inventory tracking and management for a sports shop. Developed using Python full stack technologies, this application enhances stock control, sales monitoring, and supplier management            </p>
+            <a href="https://github.com/SpSureshs/Inventary-Management" class="btn btn-primary btn-shadow">View Code</a>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-4 col-md-6 mb-4">
+          <div class="service-card text-center p-4">
+            <div class="service-icon">
+              <i class="bi bi-list-task"></i>
+            </div>
+            <h3 class="service-title">Simple ToDo-List</h3>
+            <p class="service-description">
+              Using (HTML, CSS & JavaScript)
+              Deployed the application on a local server, demonstrating full-stack development skills and ensuring secure data flow between frontend.
+            </p>
+            <a href="https://github.com/vigneshk6247/ToDo-List" class="btn btn-primary btn-shadow">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+<section class="skills" id="skills">
+  <div class="content">
+      <h2>My <span class="highlight">Skills</span></h2>
+      <div class="skills-details">
+          <div class="skill">
+              <div class="skill-name">HTML</div>
+              <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 90%;">90%</div>
+              </div>
+          </div>
+          <div class="skill">
+              <div class="skill-name">CSS</div>
+              <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 90%;">90%</div>
+              </div>
+          </div>
+          <div class="skill">
+              <div class="skill-name">JAVA SCRIPT</div>
+              <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 50%;">50%</div>
+              </div>
+          </div>
+          <div class="skill">
+              <div class="skill-name">BOOSTRAP</div>
+              <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 80%;">80%</div>
+              </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">PYTHON</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 70%;">70%</div>
+            </div>
+        </div>
+          <div class="skill">
+              <div class="skill-name">DJANGO</div>
+              <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 70%;">70%</div>
+              </div>
+          </div>
+          <div class="skill">
+              <div class="skill-name">MYSQL</div>
+              <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 60%;">60%</div>
+              </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">SQL LITE</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 70%;">70%</div>
+            </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">API</div>
+          <div class="skill-bar">
+          <div class="skill-percentage" style="width: 50%;">50%</div>
+          </div>
+      </div>
+      </div>
+  </div>
+      </section>
+
+<section id="contact">
+    <h2>Contact <span class="highlight">Me</span></h2>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <!-- <img src="assets/email.png"
+                 alt="Email icon"
+                 class="icon contact-icon email-icon" /> -->
+                 <i class="bi bi-envelope-at-fill"></i>
+            <p><a href="mailto:vigneshk.professional01@gmail.com">spsuresh045@gmail.com</a></p>
+        </div>
+    </div>
+</section>
+
+<!-- footer section -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">Suresh</a> | &#169; 2025 All Rights Reserved</span>
+  </div>
+</footer>
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap Icons for the arrow -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
